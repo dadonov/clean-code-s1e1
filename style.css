@@ -119,12 +119,12 @@ li > * { /*TODO: DELETE, DOES NOTHING*/
 .list-item__input {
     width: 226px
 }
-.delete-button__icon {
+.delete-btn__icon {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.delete-button__icon:hover {
+.delete-btn__icon:hover {
     transform: rotateZ(0);
 }
 
