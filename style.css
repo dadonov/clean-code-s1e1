@@ -37,14 +37,14 @@
     display: flex;
 }
 .list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .list-item{
-    list-style:none;
+    list-style: none;
 }
 .input,.button{
-    outline:none;
+    outline: none;
 }
 .button {
     background: none;
@@ -136,14 +136,14 @@ li > * { /*TODO: DELETE, DOES NOTHING*/
 
 /* Edit Task */
 .list-item__input {
-    display:none;
+    display: none;
 }
 
 .edit .list-item__input {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 
 .edit .list-item__label {
-    display:none;
+    display: none;
 }
