@@ -103,7 +103,7 @@
     justify-content: space-between;
     align-items: center;
 }
-li > * { /*TODO: DELETE, DOES NOTHING*/
+.list-item > * { /*TODO: DELETE, DOES NOTHING*/
     vertical-align: middle;
 }
 
