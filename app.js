@@ -1,4 +1,4 @@
-var taskInput = document.querySelector(".add-task__input"); 
+var taskInput = document.querySelector(".add-task__input");
 var addButton = document.querySelector(".add-button");
 var incompleteTaskHolder = document.querySelector(".todo__list");
 var completedTasksHolder = document.querySelector(".completed-tasks__list");
@@ -9,8 +9,8 @@ var createNewTaskElement = function (taskString) {
   var label = document.createElement("label");
   var editInput = document.createElement("input");
   var editButton = document.createElement("button");
-  var deleteButton = document.createElement("button"); 
-  var deleteButtonImg = document.createElement("img"); 
+  var deleteButton = document.createElement("button");
+  var deleteButtonImg = document.createElement("img");
 
   listItem.classList.add("todo__list-item", "list-item");
 
