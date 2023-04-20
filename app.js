@@ -19,6 +19,7 @@ var createNewTaskElement = function (taskString) {
 
   checkBox.type = "checkbox";
   editInput.type = "text";
+  checkBox.classList.add("list-item__checkbox");
   editInput.classList.add("list-item__input", "input");
 
   editButton.innerText = "Edit";
